@@ -6,7 +6,21 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
+    extend: {
+      colors: {
+        imperialRed: '#e63946',
+        honeyDew: '#f1faee',
+        powderBlue: '#a8dadc',
+        celadonBlue: '#457b9d',
+        prussianBlue: '#1d3557',
+      }
+    },
   },
   plugins: [],
 }
