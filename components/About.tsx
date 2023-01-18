@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div className='container w-[80%] mx-auto  m-12'>
+    <div className='container w-[80%] mx-auto text-[18px] m-12'>
       <div className='md:grid grid-cols-12 '>
         <div className="font-bold text-2xl mb-3 col-span-3 text-prussianBlue">About Me</div>
         <div className='col-span-9'>
