@@ -6,6 +6,9 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+      'lato': ["'Lato', sans-serif"],
+    },
     screens: {
       sm: '480px',
       md: '768px',
@@ -20,7 +23,7 @@ module.exports = {
         celadonBlue: '#457b9d',
         prussianBlue: '#1d3557',
       }
-    },
+    },    
   },
   plugins: [],
 }
