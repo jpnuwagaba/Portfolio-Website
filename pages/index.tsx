@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/About'
+import Education from '../components/Education'
 import Experience from '../components/Experience'
 import Skills from '../components/Skills'
 
@@ -13,8 +14,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <About />
-      {/* <Experience /> */}
+      <Experience />
       <Skills />
+      <Education />
     </>
   )
 }
