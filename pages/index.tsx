@@ -10,8 +10,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>John Peter Nuwagaba</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Michael Jurua</title>
+        <link rel="icon" href="/mj-ico.svg" />
       </Head>
       <About />
       <Experience />
